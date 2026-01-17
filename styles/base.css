@@ -1,0 +1,134 @@
+
+#course-title{
+    color: blue;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #333333;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: rgb(14, 190, 202);
+    padding:  1% 0px 1% 0px;
+    margin-top: 0%;
+    color:black ;
+    
+}
+
+/* Hoveron on Navigation.*/
+
+
+.navigation ul li a:hover {
+    color: blue;
+    background-color: #000000;
+
+
+}
+
+#myname{
+    text-align: center;
+}
+
+main{
+/*width: 100%;
+height: auto;
+background-color: white ;
+/*float: right;*/
+display: flex;
+align-items: stretch ;
+gap: 10px;
+padding: 25px;
+
+}
+
+main h2{
+    text-align: center;
+}
+
+#currentyear{
+    color: red;
+}
+
+span{
+    color: aliceblue;
+}
+
+.card{
+    /*width: 60%;
+    /*float: left;*/
+    border: #000000;
+    border-style: solid 1px;
+    border-radius: 20px;
+    
+    flex: 3;
+    background-color: aqua;
+    overflow: auto;
+    
+    
+}
+
+.card h3{
+    margin-top: 0%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+   
+    
+}
+.card p{
+    margin-left: 30px;
+}
+ 
+.card2{
+  /*  width: 30%;
+    height: 100%;*/
+
+    background-color:gray;
+    
+    border-radius: 20px;
+    border-style: solid 1px ;
+    overflow: hidden;
+    
+}
+.card2 h3{
+    text-align: center;
+    color: bisque;
+    background-color: rgb(24,24,235);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    
+}
+
+#flag{
+    float: left;
+}
+
+.card p{      /* create space for image */
+    width: 70%;
+    float: left;
+}
+
+
+footer {
+    margin-top:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(29,77,114);
+    color: bisque;
+
+}
+
+footer p{
+    padding-top: 10px ;
+    text-align: center;
+    padding-bottom: 19px;
+}
