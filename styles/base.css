@@ -1,8 +1,13 @@
 
 #course-title{
-    color: blue;
+    color: white;
     text-align: center;
     padding-top: 40px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    
     
 }
 
@@ -19,6 +24,7 @@ nav ul{
     justify-content: space-around;
     background-color: rgb(14, 190, 202);
     padding:  1% 0px 1% 0px;
+    padding: 20px;
     margin-top: 0%;
     color:black ;
     
@@ -36,6 +42,10 @@ nav ul{
 
 #myname{
     text-align: center;
+    vertical-align: middle;
+    margin-bottom: -1%;
+    margin-top: 6%;
+
 }
 
 main{
@@ -50,12 +60,19 @@ padding: 25px;
 
 }
 
+#mypic{
+    height: 150px;
+    width: 150px;
+
+
+}
+
 main h2{
     text-align: center;
 }
 
 #currentyear{
-    color: red;
+    color: white;
 }
 
 span{
@@ -63,14 +80,13 @@ span{
 }
 
 .card{
-    /*width: 60%;
-    /*float: left;*/
+    
     border: #000000;
     border-style: solid 1px;
     border-radius: 20px;
     
-    flex: 3;
-    background-color: aqua;
+    flex: 3;  /* card to take 3 quarters of the main*/
+    background-color: burlywood;
     overflow: auto;
     
     
@@ -80,6 +96,9 @@ span{
     margin-top: 0%;
     padding-top: 10px;
     padding-bottom: 20px;
+    text-align: center;
+    background-color: rgb(24,24,235);
+    color: wheat;
    
     
 }
