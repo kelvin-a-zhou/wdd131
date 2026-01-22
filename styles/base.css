@@ -82,7 +82,7 @@ span{
 .card{
     
     border: #000000;
-    border-style: solid 1px;
+    border-style: solid ;
     border-radius: 20px;
     
     flex: 3;  /* card to take 3 quarters of the main*/
