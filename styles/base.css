@@ -113,7 +113,8 @@ span{
     background-color:gray;
     
     border-radius: 20px;
-    border-style: solid 1px ;
+    border-style: solid;
+
     overflow: hidden;
     
 }
@@ -129,7 +130,7 @@ span{
 
 #flag{
     float: left;
-    width: 200;
+    width: 200px;
     height: 150px;
 }
 
