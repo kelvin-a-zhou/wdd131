@@ -97,10 +97,6 @@ span{
     background-color: rgb(24,24,235);
     color: wheat;
    
-    
-}
-.card p{
-    margin-left: 30px;
 }
  
 .card2{
@@ -134,6 +130,7 @@ span{
 .card p{      /* create space for image */
     width: 70%;
     float: left;
+    margin-left: 30px;
 }
 
 
