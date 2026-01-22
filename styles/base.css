@@ -129,6 +129,8 @@ span{
 
 #flag{
     float: left;
+    width: 200;
+    height: 150px;
 }
 
 .card p{      /* create space for image */
