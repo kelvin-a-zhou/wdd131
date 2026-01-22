@@ -1,11 +1,9 @@
-
 #course-title{
     color: white;
     text-align: center;
     padding-top: 40px;
     width: 100%;
     display: block;
-    text-align: center;
     font-size: x-large;
     
     
@@ -23,7 +21,6 @@ nav ul{
     list-style: none;
     justify-content: space-around;
     background-color: rgb(14, 190, 202);
-    padding:  1% 0px 1% 0px;
     padding: 20px;
     margin-top: 0%;
     color:black ;
