@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F1FAEE;
+    color: #333;
+}
+
+header {
+    background-color: #0A3D62;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+h2 {
+    color: #0A3D62;
+}
+
+section {
+    background: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-left: 6px solid #F4A261;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #0A3D62;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
