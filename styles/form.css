@@ -26,3 +26,111 @@ footer {
 footer p {
   margin: 0.25rem 0;
 }
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  margin: 0;
+  line-height: 1.6;
+}
+
+
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+
+
+
+
+.form-group {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #0077b6;
+  box-shadow: 0 0 3px #0077b6;
+}
+textarea {
+  resize: vertical;
+}
+
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+legend {
+  font-weight: bold;
+  padding: 0 0.5rem;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+  accent-color: #0077b6;
+  cursor: pointer;
+}
+
+.rating label {
+  margin-right: 1rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+
+input[type="submit"] {
+  background-color: #0077b6;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #005f87;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+  main {
+    padding: 3rem;
+  }
+}
